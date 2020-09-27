@@ -1,1 +1,11 @@
-//declaring variables
+//declaring variables -- declariables
+var currentQuestion = 0;
+var score = 0;
+var time = 100;
+var allQuestions = questions.length;
+var container = document.getElementById("container");
+var questionElement = document.getElementById("question");
+var answer1 = document.getElementById(answer1);
+var answer2 = document.getElementById(answer2);
+var answer3 = document.getElementById(answer3);
+var answer4 = document.getElementById(answer4);
