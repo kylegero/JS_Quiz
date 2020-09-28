@@ -9,6 +9,10 @@
 <body>
     <h1>Javascript Quiz</h1>
 
+    <section id="stopWatch">Timer<p id="timer">0</p>
+        <p id="fulltime"></p> 
+   </section> 
+
     <div class="container">
         <div id="questions" class="questions">Questions about Javascript</div>
         <label class="answer"><input type="radio" name="answer" value="1" /><span id="answer1"></span></label>
@@ -16,7 +20,13 @@
         <label class="answer"><input type="radio" name="answer" value="3" /><span id="answer3"></span></label>
         <label class="answer"><input type="radio" name="answer" value="4" /><span id="answer4"></span></label>
     </div>
+    <br>
+    <button id="start">Begin</button>
+    <button id="next">Next Question</button>
+    <button id="final">Final Answer!</button>
+
     <script src="./questions.js"></script>
     <script src="./script.js"></script>
+   </section> 
 </body>
 </html>
