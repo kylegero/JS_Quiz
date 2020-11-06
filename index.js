@@ -24,3 +24,8 @@ var questions = [{
     answer: "var"
 }
 ]
+
+var points = 0;
+var currentQuestion = 0;
+var timeRemaining = 0;
+var timer;
