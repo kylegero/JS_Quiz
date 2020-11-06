@@ -29,3 +29,18 @@ var points = 0;
 var currentQuestion = 0;
 var timeRemaining = 0;
 var timer;
+
+
+function start() {
+    timeRemaining = 100;
+    document.getElementById("timeRemaining").innerHTML = timeRemaining;
+
+timer = setInterval(function(){
+    timeRemaining--;
+    document.getElementById("timeRemaining").innerHTML = timeRemaining;
+    if (timeRemaining <= 0) {
+        clearInterval(timer);
+        stopQuiz();
+    }
+}, 500)
+}
