@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="nav">
+
+        <div class="scoreboard">
+            <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+        </div>
+
+        <div class="timer">
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </div>
+    </div>
+
+    <div id="quiz">
+        <div id="quizBody">      
+            <h1>   
+                JavaScript Quiz!
+            </h1>
+            <h3>
+                Click to play!   
+            </h3>
+            <button onclick="start()">Start Quiz</button>
+        </div>
+    </div>
+</body>
+</html>
